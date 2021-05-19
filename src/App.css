@@ -8,7 +8,6 @@
 .home,
 .services,
 .projects,
-.contact-us,
 .domestic,
 .commercial,
 .industrial {
@@ -19,6 +18,8 @@
   font-size: 3rem;
   font-weight: lighter;
 }
+
+/* HOME */
 
 .home {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/House1.jpg');
@@ -51,36 +52,11 @@
   font-weight: lighter;
 }
 
+/* SERVICES */
+
 .services {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/House1.jpg');
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.projects {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/House1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact-us {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/House1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.commercial {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/Commercial.jpeg');
-  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -96,6 +72,15 @@
   font-size: 100px;
 }
 
+.commercial {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/Commercial.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 .industrial {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/Industrial.jpg');
   background-position: top;
@@ -104,6 +89,60 @@
   color: #fff;
   font-size: 100px;
 }
+
+/* PROJECTS */
+
+.projects {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/House1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* CONTACT US */
+
+.contact-us {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  display: grid;
+  height: 120vh;
+  align-items: top;
+  justify-content: center;
+  grid-template-rows: 30vh 5vh 25vh auto;
+  grid-template-columns: 100%;
+}
+
+.contact-us-header {
+  grid-row-start: 1;
+  height: 100%;
+  padding-top: 7vh;
+  color: black;
+  background-color: white;
+  font-size: 85px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.contact-us h3 {
+  color: white;
+  align-self: center;
+  justify-self: center;
+  font-size: 30px;
+  font-weight: lighter;
+  grid-row-start: 2;
+}
+
+.contact-form-container {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  margin-top: 5vh;
+  grid-row-start: 3;
+
+}
+
+/* RESPONSIVE DESIGN */
 
 @media screen and (max-width: 960px) {
   .home,

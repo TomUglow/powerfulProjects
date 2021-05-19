@@ -1,6 +1,6 @@
 export const Testimonals = [
     {
-        testimonial: 'Ben at was amazing, was super helpful and professional. The job he did was outstanding, I would definitely recommend.',
+        testimonial: 'Ben was amazing, was super helpful and professional. The job he did was outstanding, I would definitely recommend.',
         name: 'Kris H',
         suburb: 'Ashburton',
         year: '2021',
