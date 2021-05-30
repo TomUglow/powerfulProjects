@@ -10,13 +10,14 @@ import Domestic from './components/pages/Domestic';
 import Commercial from './components/pages/Commercial';
 import Industrial from './components/pages/Industrial';
 import Footer from './components/Footer';
+import _default from 'emailjs-com';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='' exact component={Home} />
+        <Route exact path='/' exact component={Home} />
         <Route path='/services' exact component={Services} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact-us' exact component={ContactUs} />
