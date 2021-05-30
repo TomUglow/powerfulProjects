@@ -116,7 +116,7 @@
 .contact-us-header {
   grid-row-start: 1;
   height: 100%;
-  padding-top: 7vh;
+  padding-top: 8vh;
   color: black;
   background-color: white;
   font-size: 85px;
@@ -148,12 +148,15 @@
   .home,
   .services,
   .projects,
-  .contact-us,
   .domestic,
   .commercial,
   .industrial {
     position: relative;
     align-items: center;
     text-align: center;
+  }
+
+  .contact-us {
+    height: 140vh;
   }
 }
