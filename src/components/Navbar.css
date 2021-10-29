@@ -11,10 +11,8 @@
   color: #fff;
   justify-self: start;
   margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  min-width: 280px;
+  margin-top: 5px;
+  max-width: 200px;
 }
 
 .nav-menu {
@@ -41,7 +39,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #2993a7;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -91,7 +89,7 @@
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #2993a7;
     border-radius: 0;
   }
 
@@ -124,7 +122,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #1888ff;
+    background: #2993a7;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -132,7 +130,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #1888ff;
+    color: #2993a7;
     transition: 250ms;
   }
 

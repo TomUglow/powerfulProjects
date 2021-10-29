@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HeaderButton } from './HeaderButton';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Dropdown from './Dropdown';
+import logo from '../images/white_no background.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          POWERFUL PROJECTS
+          <img src={logo} alt="Logo" className='navbar-logo'/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -51,9 +51,8 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services <i className='fas fa-caret-down' />
+              Services
             </Link>
-            {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link

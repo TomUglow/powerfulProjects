@@ -2,12 +2,13 @@ import React from 'react';
 import '../../App.css';
 import Slider from '../Slider';
 import { ContactUsButton } from '../ContactUsButton';
+import logo from '../../images/white_no background.png';
 
 export default function Home() {
     return(
         <div className='homepage-container'>
             <div className='home'>
-                <h1 className='home-heading'>POWERFUL PROJECTS</h1>
+                <img src={logo} alt="Logo" className='homepage-logo'/>
                 <div className='homepage-button'>
                     <ContactUsButton/>
                 </div>

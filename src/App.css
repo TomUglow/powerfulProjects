@@ -31,17 +31,17 @@
   grid-template-rows: 15vh 20vh 10vh 15vh auto;
 }
 
-.home-heading {
+.homepage-logo {
   grid-row-start: 2;
-  width: 100%;
+  max-width: 50%;
   align-self: center;
-  color: #fff;
-  font-size: 100px;
-  font-weight: lighter;
+  justify-self: center;
 }
 
 .homepage-button {
   grid-row-start: 3;
+  margin-top: 15%;
+  justify-content: center;
 }
 
 .homepage-slider {

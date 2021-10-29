@@ -1,9 +1,9 @@
 :root {
-    --primary: #1888ff;
+    --primary: #2993a7;
   }
   
   .contact-us-btn {
-    padding: 8px 20px;
+    padding: 10px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -11,9 +11,8 @@
     color: #fff;
     cursor: pointer;
     background-color: var(--primary);
-    min-width: 120px;
+    min-width: 20%;
     margin-left: 40%;
-    margin-top: 20vh;
   }
   
   .contact-us-btn:hover {
