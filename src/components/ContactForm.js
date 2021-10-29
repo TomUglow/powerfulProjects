@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/ContactForm.css';
+import './ContactForm.css';
 import LocationPin from '..//images/location-pin.png';
 import emailjs, { init } from 'emailjs-com';
 init("user_kOD2awCiUQTvoAfY4hMUn");
