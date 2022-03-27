@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+$ echo '/dev-*/node_modules/' >> .gitignore
+$ echo '/dev-*/build/' >> .gitignore\
+
+exclude:
+  - node_modules
+  - dev-awesome-tool
