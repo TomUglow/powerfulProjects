@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/powerfulProjects/static/css/main.68171448.chunk.css",
+    "main.js": "/powerfulProjects/static/js/main.7b26c99e.chunk.js",
+    "main.js.map": "/powerfulProjects/static/js/main.7b26c99e.chunk.js.map",
+    "runtime-main.js": "/powerfulProjects/static/js/runtime-main.5e6a3b6e.js",
+    "runtime-main.js.map": "/powerfulProjects/static/js/runtime-main.5e6a3b6e.js.map",
+    "static/js/2.9ebf8d03.chunk.js": "/powerfulProjects/static/js/2.9ebf8d03.chunk.js",
+    "static/js/2.9ebf8d03.chunk.js.map": "/powerfulProjects/static/js/2.9ebf8d03.chunk.js.map",
+    "index.html": "/powerfulProjects/index.html",
+    "static/css/main.68171448.chunk.css.map": "/powerfulProjects/static/css/main.68171448.chunk.css.map",
+    "static/js/2.9ebf8d03.chunk.js.LICENSE.txt": "/powerfulProjects/static/js/2.9ebf8d03.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/powerfulProjects/static/media/House1.ee76bb07.jpg",
+    "static/media/final logo_black_no background.6839ddcf.png": "/powerfulProjects/static/media/final logo_black_no background.6839ddcf.png",
+    "static/media/instagram-logo-black-transparent.eb7562c4.jpg": "/powerfulProjects/static/media/instagram-logo-black-transparent.eb7562c4.jpg",
+    "static/media/location-pin.691c539e.png": "/powerfulProjects/static/media/location-pin.691c539e.png",
+    "static/media/white_no background.6fa72953.png": "/powerfulProjects/static/media/white_no background.6fa72953.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e6a3b6e.js",
+    "static/js/2.9ebf8d03.chunk.js",
+    "static/css/main.68171448.chunk.css",
+    "static/js/main.7b26c99e.chunk.js"
+  ]
+}
