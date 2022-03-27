@@ -7,7 +7,6 @@ import Projects from './components/pages/Projects';
 import ContactUs from './components/pages/ContactUs';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
-import _default from 'emailjs-com';
 
 function App() {
   return (
